@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Pixelify Sans", sans-serif;
+    --fonte-texto: "Gravitas One", serif;
+    --vermelho: #F0181Bff;
+    --azul: #1994E1ff;
+    --amarelo: #F6C21Eff;
+    --amarelo-forte: rgb(193, 153, 19);
+    --branco: #FDFDFDff;
+    --azul-forte: #1683D8ff;
+
+}
+
+body{
+    background-color: var(--amarelo);
+    font-family: var(--fonte-titulo);
+    color: var(--branco);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--amarelo-forte);
+    padding: 1em;
+}
+
+footer p{
+    font-size: 1.2rem ;
+    color: var(--branco);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--vermelho);
+}
